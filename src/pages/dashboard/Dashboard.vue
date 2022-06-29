@@ -64,7 +64,6 @@ import General from './General'
 import Order from './Order'
 import Member from './Member'
 import SummaryOf from './SummaryOf'
-import Diagram from './Diagram'
 
 export default {
   name: 'Dashboard',
@@ -74,7 +73,7 @@ export default {
       form: this.$form.createForm(this)
     }
   },
-  components: {General, Order, Member, SummaryOf, Diagram},
+  components: {General, Order, Member, SummaryOf},
   methods: {
     handleSubmit (e) {
       e.preventDefault()

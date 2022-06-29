@@ -1,0 +1,48 @@
+module.exports = {
+  messages: {
+    CN: {
+      yes: '是',
+      no: '否',
+      input: '请输入',
+      select: '请选择',
+      selected: '已选择',
+      search: '搜索',
+      content: '内容',
+      id: 'ID',
+      assign: '分配',
+      template: '模板',
+      mode: '模式',
+      own: '所有',
+      member: '会员',
+      phone: '手机号',
+      user: '用户',
+      name: '名称',
+      level: '等级',
+      remark: '备注',
+      account: '账号',
+      status: '状态',
+      create: '创建',
+      modify: '修改',
+      time: '时间',
+      weights: '权重',
+      details: '详情',
+      confirm: '确认',
+      delete: '删除',
+      register: '注册',
+      date: '日期',
+      source: '来源',
+      modeDetailsAndModifySorting: '用户模式详情及修改排序',
+      dragListDataToSort: '拖动列表数据可进行排序',
+    },
+    HK: {
+      input: '請輸入',
+      select: '請選擇',
+      name: '任務名',
+    },
+    US: {
+      input: 'Please enter',
+      select: 'Please select',
+      name: 'Nick Name',
+    }
+  }
+}
